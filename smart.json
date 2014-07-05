@@ -1,0 +1,7 @@
+{
+  "packages":{
+    "famono":{
+      "git": "https://github.com/particle4dev/Meteor-famono.git"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "famono": {
+        "git": "https://github.com/particle4dev/Meteor-famono.git",
+        "branch": "master"
+      }
+    },
+    "packages": {
+      "famono": {
+        "git": "https://github.com/particle4dev/Meteor-famono.git",
+        "branch": "master",
+        "commit": "1aceb29246016c5ec583f532336752c885f6eea1"
+      }
+    }
+  }
+}
