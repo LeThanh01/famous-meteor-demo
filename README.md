@@ -27,12 +27,13 @@ Tiep theo, add template vao doi tuong ReactiveTemplate thay the cho content:
 Co the truyen du lieu vao template bang Session.
 
 Example:
+
 Tao file example.html:
-    <template name= "example">
-    	Firstname: {{ firstname }}
-    	<br/>
-    	Lastname: {{ lastname }}
-    </template>
+		<template name='example'>
+				Firstname: {{ firstname }}
+				<br/>
+				Lastname: {{ lastname }}
+		</template>
     
 trong file main.js add tempplate example:
     define(function(require, exports, module){
