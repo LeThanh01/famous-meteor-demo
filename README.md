@@ -12,7 +12,8 @@ Trong file html, tao 1 template:<br/>
 *2) Use template<br/>
 Trong file main.js:<br/>
 Dau tien, gui yeu cau de lay doi tuong ReactiveTemplate bang function require():<br/>
-      var ReactiveTemplate    = require('famodev/ReactiveTemplate');<br/>
+
+      var ReactiveTemplate    = require('famodev/ReactiveTemplate');
 
 Tiep theo, add template vao doi tuong ReactiveTemplate thay the cho content:<br/>
 
