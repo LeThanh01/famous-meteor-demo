@@ -4,9 +4,11 @@ famous-meteor-demo
 Basic:<br/>
 *1) Tao template<br/>
 Trong file html, tao 1 template:<br/>
+
       <template name= "name-template">
       	//noi dung template
       </template>
+      
 *2) Use template<br/>
 Trong file main.js:<br/>
 Dau tien, gui yeu cau de lay doi tuong ReactiveTemplate bang function require():<br/>
@@ -38,7 +40,7 @@ Tao file example.html:<br/>
 		</template>
 		
 <br/>    
-trong file main.js add tempplate example:<br/>
+trong file main.js add template example:<br/>
 
     define(function(require, exports, module){
         var Engine              = require('famous/core/Engine');
