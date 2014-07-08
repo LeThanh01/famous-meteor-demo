@@ -1,18 +1,19 @@
 famous-meteor-demo
 ==================
 #ReactiveTemplate (Use for Famous)
-Basic:
-*1) Tao template
-Trong file html, tao 1 template:
+Basic:<br/>
+*1) Tao template<br/>
+Trong file html, tao 1 template:<br/>
       <template name= "name-template">
       	//noi dung template
       </template>
-*2) Use template
-Trong file main.js:
-Dau tien, gui yeu cau de lay doi tuong ReactiveTemplate bang function require():
-      var ReactiveTemplate    = require('famodev/ReactiveTemplate');
+*2) Use template<br/>
+Trong file main.js:<br/>
+Dau tien, gui yeu cau de lay doi tuong ReactiveTemplate bang function require():<br/>
+      var ReactiveTemplate    = require('famodev/ReactiveTemplate');<br/>
 
-Tiep theo, add template vao doi tuong ReactiveTemplate thay the cho content:
+Tiep theo, add template vao doi tuong ReactiveTemplate thay the cho content:<br/>
+
       var reactiveTemplate    = new ReactiveTemplate({
           size: [witdh,height],
           template: Template.nameTemplate,
@@ -24,18 +25,21 @@ Tiep theo, add template vao doi tuong ReactiveTemplate thay the cho content:
           }
       });
       
-Co the truyen du lieu vao template bang Session.
+Co the truyen du lieu vao template bang Session.<br/>
 
-Example:
+Example:<br/>
 
-Tao file example.html:
+Tao file example.html:<br/>
+
 		<template name='example'>
 				Firstname: {{ firstname }}
 				<br/>
 				Lastname: {{ lastname }}
 		</template>
-    
-trong file main.js add tempplate example:
+		
+<br/>    
+trong file main.js add tempplate example:<br/>
+
     define(function(require, exports, module){
         var Engine              = require('famous/core/Engine');
         var Surface             = require('famous/core/Surface');
@@ -62,19 +66,17 @@ trong file main.js add tempplate example:
         });
     });
     
-Tao file axample.js:
+Tao file axample.js:<br/>
+
     Template.demoOne.helpers({
     	firstname: function(){
             return Session.get('firstname');
     	},
-    
     	lastname: function(){
     		return Session.get('lastname');
     	}
     });
-    
     Session.set('firstname', 'Nguyen');
-    
     Session.set('lastname', 'Bang');
 
 
