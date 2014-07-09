@@ -55,7 +55,6 @@ trong file main.js add template example:<br/>
             size: [200, 200],
             template: Template.example,
             properties: {
-                color: 'white',
                 textAlign: 'center',
                 lineHeight: '200px',
                 backgroundColor: 'red',
