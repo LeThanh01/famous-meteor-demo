@@ -67,6 +67,8 @@ trong file main.js add template example:<br/>
                 }
             }
         });
+        
+        mainContext.add(reactiveTemplate);
     });
     
 Tao file axample.js:<br/>
